@@ -275,7 +275,8 @@ print("Misclassified Samples : %d" % (test_y !=prediction).sum())
 
 data.shape
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/1986f990-26e6-4b42-acfc-b2a6e52f8042)
+![image](https://github.com/user-attachments/assets/a6edbcd1-0de5-47c6-8199-19ec203529b8)
+
 ```python
 
 import pandas as pd
@@ -300,7 +301,8 @@ selected_features=x.columns[selected_feature_indices]
 print("Selected Features:")
 print(selected_features)
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/20777b0d-3cdb-4ae9-80e4-1f76ed093191)
+![image](https://github.com/user-attachments/assets/5f0d27e6-1b29-4c9e-b95d-4a01f93b0eb3)
+
 ```python
 
 import pandas as pd
@@ -311,25 +313,29 @@ import seaborn as sns
 tips=sns.load_dataset('tips')
 tips.head()
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/6d6f7ff2-b1da-4568-9cd1-cb6fa9553cd6)
+![image](https://github.com/user-attachments/assets/119538b7-d862-4f34-b5e7-0d3e45ea36a0)
+
 ```python
 
 tips.time.unique()
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/f77bc757-8a31-4a5d-be15-5a447e6549c6)
+![image](https://github.com/user-attachments/assets/7cd8552b-a71a-4220-9278-ae900fbee920)
+
 ```python
 
 contingency_table=pd.crosstab(tips['sex'],tips['time'])
 print(contingency_table)
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/06365e9f-f51b-4cf6-ab04-8a136726a025)
+![image](https://github.com/user-attachments/assets/dc81baf6-70ee-4774-85b5-ff20fd1c85e9)
+
 ```python
 
 chi2,p,_,_=chi2_contingency(contingency_table)
 print(f"Chi-Square Statistics: {chi2}")
 print(f"P-Value: {p}")
 ```
-![image](https://github.com/Yamunaasri/EXNO-4-DS/assets/115707860/6adc4da7-421c-458f-9ec6-f6158aa6f731)
+![image](https://github.com/user-attachments/assets/1806caf0-4591-4d2e-a010-9efe26057b04)
+
 
 # RESULT:
 Thus,The given data is read and performed Feature Scaling and Feature Selection process and saved the
