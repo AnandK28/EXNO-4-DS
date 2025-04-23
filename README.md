@@ -31,7 +31,7 @@ The feature selection techniques used are:
 3.Embedded Method
 
 # CODING AND OUTPUT:
-BMI.csv
+# BMI.csv
 ```
 import pandas as pd
 from scipy import stats
@@ -147,7 +147,7 @@ print(selected_features)
 ![image](https://github.com/user-attachments/assets/b28e63c4-d423-4172-b8d9-c797576f2332)
 
 
-Income.csv
+# Income.csv
 ```python
 import pandas as pd
 import numpy as np
