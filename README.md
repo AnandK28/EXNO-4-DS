@@ -172,10 +172,7 @@ data.isnull().sum()
 ```python
 
 missing=data[data.isnull().any(axis=1)]
-missing```
-![image](https://github.com/user-attachments/assets/d541fac4-6550-4475-b367-8605092198ce)
-
-
+missing
 data2=data.dropna(axis=0)
 data2
 ```
